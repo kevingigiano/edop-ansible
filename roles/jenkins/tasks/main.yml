@@ -21,7 +21,7 @@
 
 - name: Install Jenkins
   yum:
-    name: jenkins-2.99
+    name: jenkins
     enablerepo: jenkins
     state: present
 
